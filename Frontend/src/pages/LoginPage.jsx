@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { jwtDecode } from "jwt-decode";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-const API_BASE = import.meta.env.REACT_APP_API_URL || 'http://localhost:5001';
+const API_BASE = import.meta.env.REACT_APP_API_URL;
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
