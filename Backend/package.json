@@ -8,6 +8,10 @@
     "start": "nodemon start",
     "lint": "next lint"
   },
+  "engines": {
+  "node": ">=18.0.0",
+  "npm": ">=9.0.0"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
